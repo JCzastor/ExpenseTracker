@@ -1,0 +1,18 @@
+#editBtn {
+    background: transparent;
+    width: 50px;
+    border: 0;
+}
+
+#deleteBtn {
+    background: transparent;
+    width: 30px;
+    border: 0;
+}
+
+#addBtn {
+    float: left;
+    background: transparent;
+    width: 50px;
+    border: 0;
+}

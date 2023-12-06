@@ -1,0 +1,39 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+body {
+    background-color: #2f3239;
+    color: #eee;
+}
+
+main{
+    padding-top: 10px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+hr{
+    color: #eee;
+}
+
+.charts {
+    display: flex;
+    padding-top: 3vh;
+    width: 100vw;
+    padding-bottom: 3vh;
+    justify-content: center;
+}
+
+.barChart {
+    width: 50vw;
+}
+
+#edit {
+    text-align: right;
+}
+
+#formBox {
+    padding-top: 4vh;
+}
