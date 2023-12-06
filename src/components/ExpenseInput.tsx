@@ -7,7 +7,6 @@ import CloseAddButton from './CloseAddButton';
 
 import {
     Chart as ChartJS,
-    ChartType,
     BarElement,
     Tooltip,
     Legend,
@@ -319,7 +318,7 @@ function ExpenseInput() {
         <div className="row align-items-start">
             <div className="charts">
               <div className="barChart">
-                <Bar data={userData} options={options}/>
+                <Bar data={userData}/>
               </div>
             </div>
           <div className="containter text-center">
