@@ -54,7 +54,7 @@ let expenseCat = [{
 },
 ]
 
-const options = {
+/*const options = {
   color: "#9e9e9e",
   scales:{
     x:{
@@ -70,7 +70,7 @@ const options = {
       }
     },
   },
-}
+}*/
 
 function ExpenseInput() {
   const [editMode, setEditMode] = useState(false);
